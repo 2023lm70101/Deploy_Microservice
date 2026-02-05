@@ -1,0 +1,13 @@
+{
+  "name": "sclable-service",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "postinstall": "cd hello-world && npm install && npm run build"
+}
