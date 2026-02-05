@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 
 function callApi() {
-  fetch('http://localhost:2300/', { method: 'GET' })
+  fetch('http://localhost:2300/api', { method: 'GET' })
     .then(data => data.json())
     .then(json => alert(JSON.stringify(json)))
 }
